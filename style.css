@@ -3,12 +3,16 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     letter-spacing: 5px;
     font-size: 1.8rem;
+    background-color: black;
+  }
+  h2{
+    color: white;
   }
   .calculator {
-    width: 410px;
+    width: 490px;
     padding: 20px;
     -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 20px 0px white;
     border-radius: 1px;
   }
   .calculator-wrapper{
@@ -28,6 +32,7 @@ body {
     font-size: 2.5rem;
     overflow-x: auto;
     transition: all .2s ease-in-out;
+    color: white;
   }
   
   .input:hover {
@@ -38,14 +43,15 @@ body {
   
   .operators div {
     display: inline-block;
-    border: 1px solid #bbb;
+    border: 1px solid orange;
     border-radius: 1px;
     width: 80px;
     text-align: center;
     padding: 10px;
     margin: 20px 4px 10px 0;
     cursor: pointer;
-    background-color: #ddd;
+    color: white;
+    background-color: orange;
     transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
   }
   
@@ -66,19 +72,21 @@ body {
   
   .numbers div {
     display: inline-block;
-    border: 1px solid #ddd;
+    border: 1px solid white;
     border-radius: 1px;
-    width: 90px;
+    width: 85px;
     text-align: center;
     padding: 10px;
     margin: 10px 4px 10px 0;
     cursor: pointer;
-    background-color: #f9f9f9;
+    color: white;
+    background-color: black;
     transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
   }
   
   .numbers div:hover {
     background-color: #f1f1f1;
+    color: black;
     -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
     border-color: #bbb;
@@ -90,24 +98,24 @@ body {
   
   div.equal {
     display: inline-block;
-    border: 1px solid #3079ED;
+    border: 1px solid orange;
     border-radius: 1px;
-    width:12%;
+    width:15%;
     text-align: center;
-    padding: 110px 25px;
+    padding: 125px 6px;
     margin: 10px 6px 10px 0;
     vertical-align: top;
     cursor: pointer;
     color: #FFF;
-    background-color: #4d90fe;
+    background-color: orange;
     transition: all .2s ease-in-out;
   }
   
   div.equal:hover {
-    background-color: #307CF9;
+    background-color: darkorange;
     -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
-    border-color: #1857BB;
+    border-color: darkorange;
   }
   
   div.equal:active {
